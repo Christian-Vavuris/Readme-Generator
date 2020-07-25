@@ -1,19 +1,22 @@
 
-const things = [
-    {name: "title"}, 
-    {name: "description"}, 
-    {name: "installation"}, 
-    {name: "usage"}, 
-    {name: "contribution"}, 
-    {name: "test"}, 
-    {name: "licenses"}, 
-    {name: "github"}, 
-    {name: "email"}
-];
-// generate the readme HTML code
+// this is test data
 
+let things = {
+    title: "title",
+    description: "description", 
+    installation: "installation", 
+    usage: "usage", 
+    contribution: "contribution", 
+    test: "test", 
+    licenses: "licenses", 
+    github: "github", 
+    email: "email"
+};
+
+
+// this is getting test data passed in at thee moment
 generateHtml = (data) => {
-
+console.log(data)
     const { title, description, installation, usage, contribution, test, licenses, github, email } = data;
     return `
     <!DOCTYPE html>
@@ -72,6 +75,8 @@ generateHtml = (data) => {
 
 
 };
+
+// this is a test to check to see if the info is going in
 
 console.log(generateHtml(things));
 
