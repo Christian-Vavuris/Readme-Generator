@@ -19,52 +19,50 @@ generateHtml = (data) => {
 console.log(data)
     const { title, description, installation, usage, contribution, test, licenses, github, email } = data;
     return `
-        "# Project Title: ${title}
+"# Project Title: ${title}
 
-        ## Description of the application
-        
-        ${description}
+## Description of the application
 
-        ## Table of Contents (Optional)
+${description}
 
-        * [Installation](#installation)
-        * [Usage](#usage)
-        * [Contribution](#contribution)
-        * [Test](#test)
-        * [License](#license)
-        * [Questions] (#questions)
+## Table of Contents (Optional)
 
-
-        ## Installation
-
-        ${installation} 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Test](#test)
+* [License](#license)
+* [Questions] (#questions)
 
 
-        ## Usage 
+## Installation
 
-        ${usage}
+${installation} 
 
 
-        ## Credits
+## Usage 
 
-        ${contribution}
+${usage}
 
-        ## License
 
-        ${licenses}
+## Credits
 
-        ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+${contribution}
 
-        ## Tests
+## License
 
-        ${test}
+${licenses}
 
-        ## Questions? Contact me here:
+## Tests
 
-        https://github.com/${github}
+${test}
 
-        ${email}
-        `;
+## Questions? Contact me here:
+
+https://github.com/${github}
+
+${email}
+`;
 
 
 };
