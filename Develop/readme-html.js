@@ -14,10 +14,11 @@ ${description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
-* [Test](#test)
+* [Contribution](#Contribution)
 * [License](#license)
-* [Questions] (#questions)
+* [Tests](#Tests)
+
+
 
 
 ## Installation
@@ -30,7 +31,7 @@ ${installation}
 ${usage}
 
 
-## Credits
+## Contribution
 
 ${contribution}
 

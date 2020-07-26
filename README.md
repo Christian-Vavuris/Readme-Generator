@@ -10,10 +10,11 @@ f
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contribution](#contribution)
-* [Test](#test)
+* [Contribution](#Contribution)
 * [License](#license)
-* [Questions] (#Questions)
+* [Tests](#Tests)
+
+
 
 
 ## Installation
@@ -26,7 +27,7 @@ f
 f
 
 
-## Credits
+## Contribution
 
 f
 
@@ -40,6 +41,6 @@ f
 
 ## Questions
 
-https://github.com/Christian-Vavuris
+https://github.com/f
 
-cvavuris@gmail.com
+f
