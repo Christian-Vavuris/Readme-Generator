@@ -1,10 +1,10 @@
 
-[![Generic badge](https://img.shields.io/badge/LICENSE-MIT-<BLUE>.svg)](https://shields.io/)
-# Project Title: Bug Fixing Test
+[![Generic badge](https://img.shields.io/badge/LICENSE-f-<BLUE>.svg)](https://shields.io/)
+# Project Title: f
 
 ## Description of the application
 
-Going to fix a bug with this one
+f
 
 ## Table of Contents (Optional)
 
@@ -18,27 +18,27 @@ Going to fix a bug with this one
 
 ## Installation
 
-Utter Genius 
+f 
 
 
 ## Usage 
 
-To get hot babes
+f
 
 
 ## Credits
 
-Be awesome
+f
 
 ## License
 
-MIT
+f
 
 ## Tests
 
-With a computer
+f
 
-## Questions? Contact me here:
+## Questions
 
 https://github.com/Christian-Vavuris
 

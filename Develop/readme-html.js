@@ -42,7 +42,7 @@ ${licenses}
 
 ${test}
 
-## Questions? Contact me here:
+## Questions
 
 https://github.com/${github}
 
