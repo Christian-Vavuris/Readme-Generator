@@ -19,64 +19,55 @@ generateHtml = (data) => {
 console.log(data)
     const { title, description, installation, usage, contribution, test, licenses, github, email } = data;
     return `
-    <!DOCTYPE html>
-    <html lang="en">
-        <head></head>
-        <body>
-            <pre style="word-wrap, break-word; white-space: pre-wrap;">
-                "# ${title}
+        "# Project Title: ${title}
 
-                ## ${description}
-                
-                ## Table of Contents (Optional)
-                
-                If your README is very long, add a table of contents to make it easy for users to find what they need.
-                
-                * [Installation](#installation)
-                * [Usage](#usage)
-                * [Contribution](#contribution)
-                * [Test](#test)
-                * [License](#license)
-                * [Questions] (#questions)
-                
-                
-                ## Installation
-                
-                ${installation} 
-                
-                
-                ## Usage 
-                
-                ${usage}
-                
-                
-                ## Credits
-                
-                ${contribution}
-                
-                ## License
-                
-                ${licenses}
-               
-                ## Tests
-                
-                ${test}
+        ## Description of the application
+        
+        ${description}
 
-                ## Questions
+        ## Table of Contents (Optional)
 
-                ${github}
+        * [Installation](#installation)
+        * [Usage](#usage)
+        * [Contribution](#contribution)
+        * [Test](#test)
+        * [License](#license)
+        * [Questions] (#questions)
 
-                ${email}
-            
-            </pre>
-        </body>
-    </HTML>
-    `;
+
+        ## Installation
+
+        ${installation} 
+
+
+        ## Usage 
+
+        ${usage}
+
+
+        ## Credits
+
+        ${contribution}
+
+        ## License
+
+        ${licenses}
+
+        ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+        ## Tests
+
+        ${test}
+
+        ## Questions? Contact me here:
+
+        https://github.com/${github}
+
+        ${email}
+        `;
 
 
 };
 
-// this is a test to check to see if the info is going in
 
-// console.log(generateHtml(answers));
 

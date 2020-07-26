@@ -4,7 +4,7 @@ const generatePage = require('./readme-html');
 
 
 const createFile = function(code) {
-    fs.writeFile('Readme.MD', code, (err) => {
+    fs.writeFile('../Readme.MD', code, (err) => {
         if (err) throw err;
         console.log('The file has been saved!');
     });
