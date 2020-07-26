@@ -1,10 +1,10 @@
 
-[![Generic badge](https://img.shields.io/badge/<License>-<d>-<GREEN>.svg)](https://shields.io/)
-# Project Title: d
+[![Generic badge](https://img.shields.io/badge/LICENSE-MIT-<BLUE>.svg)](https://shields.io/)
+# Project Title: Bug Fixing Test
 
 ## Description of the application
 
-d
+Going to fix a bug with this one
 
 ## Table of Contents (Optional)
 
@@ -18,28 +18,28 @@ d
 
 ## Installation
 
-undefined 
+Utter Genius 
 
 
 ## Usage 
 
-d
+To get hot babes
 
 
 ## Credits
 
-dd
+Be awesome
 
 ## License
 
-d
+MIT
 
 ## Tests
 
-d
+With a computer
 
 ## Questions? Contact me here:
 
-https://github.com/d
+https://github.com/Christian-Vavuris
 
-d
+cvavuris@gmail.com

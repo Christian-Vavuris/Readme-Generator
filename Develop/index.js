@@ -12,8 +12,6 @@ const createFile = function(code) {
 
 const collectData = function () {
 
-    var readmeData = [];
-
     return inquirer.prompt([
     {
         type: 'input',
@@ -27,7 +25,7 @@ const collectData = function () {
     },
     {
         type: 'input',
-        name:'instllation',
+        name:'installation',
         message: 'What is required to install and run this application?'
     },
     {
@@ -62,18 +60,11 @@ const collectData = function () {
     },
   ])
   .then(answers => {
-    // console.log(answers)
     console.log(generateHtml(answers));
     return createFile(generateHtml(answers));
   });
 };
 
-
-
-
 collectData();
-    // .then(console.log(generateHtml(answers)))
-    //  .then(generateHtml(answers));
-    // return writeFile(pageHTML);
-    // });
+
 

@@ -1,25 +1,9 @@
 
-// this is test data
-
-// let things = {
-//     title: "title",
-//     description: "description", 
-//     installation: "installation", 
-//     usage: "usage", 
-//     contribution: "contribution", 
-//     test: "test", 
-//     licenses: "licenses", 
-//     github: "github", 
-//     email: "email"
-// };
-
-
-// this is getting test data passed in at thee moment
 generateHtml = (data) => {
 console.log(data)
     const { title, description, installation, usage, contribution, test, licenses, github, email } = data;
     return `
-[![Generic badge](https://img.shields.io/badge/<License>-<${licenses}>-<GREEN>.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/LICENSE-${licenses}-<BLUE>.svg)](https://shields.io/)
 # Project Title: ${title}
 
 ## Description of the application
