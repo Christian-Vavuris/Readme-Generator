@@ -1,10 +1,10 @@
 
-[![Generic badge](https://img.shields.io/badge/LICENSE-f-<BLUE>.svg)](https://shields.io/)
-# Project Title: f
+[![Generic badge](https://img.shields.io/badge/LICENSE-MIT-<BLUE>.svg)](https://shields.io/)
+# Project Title: Readme Generator Application
 
 ## Description of the application
 
-f
+This allows me to create a high quality readme from the command line
 
 ## Table of Contents (Optional)
 
@@ -19,28 +19,28 @@ f
 
 ## Installation
 
-f 
+Npm inquirer, node fs, and an understanding of JavaScript 
 
 
 ## Usage 
 
-f
+To make readme generation fast and easy
 
 
 ## Contribution
 
-f
+Open to all who would like to contribute
 
 ## License
 
-f
+MIT
 
 ## Tests
 
-f
+They can use the command line to pass in test information
 
 ## Questions
 
-https://github.com/f
+https://github.com/Christian-Vavuris
 
-f
+cvavuris@gmail.com
