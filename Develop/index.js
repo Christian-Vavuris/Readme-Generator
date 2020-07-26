@@ -20,22 +20,22 @@ const collectData = function () {
     },
     {
         type: 'input',
-        name:'instllation-information',
+        name:'instllation',
         message: 'What is required to install and run this application?'
     },
     {
         type: 'input',
-        name:'usage-information',
+        name:'usage',
         message: 'What is the intended use of your application?'
     },
     {
         type: 'input',
-        name:'contribution-guidelines',
+        name:'contribution',
         message: 'What are the guidelines for contributing to this project?'
     },
     {
         type: 'input',
-        name:'test-instructions',
+        name:'test',
         message: 'How does a developer test this application?'
     },
     {
@@ -45,7 +45,7 @@ const collectData = function () {
     },
     {
         type: 'input',
-        name:'github-username',
+        name:'github',
         message: 'What is your Github username?'
     },
     {
@@ -55,32 +55,14 @@ const collectData = function () {
     },
   ])
   .then(answers => {
-    readmeData.push(answers);
-    return readmeData;
+    // console.log(answers)
+    return console.log(generateHtml(answers));
   });
-//   .catch(error => {
-//     if(error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else when wrong
-//     }
-//   });
 };
 
-
-
-
-
-
-
-
-
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-collectData() 
-    .then(generateHtml = (readmeData) => {
-    return writeFile(pageHTML);
-    });
+collectData()
+    // .then(console.log(generateHtml(answers)))
+    //  .then(generateHtml(answers));
+    // return writeFile(pageHTML);
+    // });
 

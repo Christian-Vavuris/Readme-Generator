@@ -1,17 +1,17 @@
 
 // this is test data
 
-let things = {
-    title: "title",
-    description: "description", 
-    installation: "installation", 
-    usage: "usage", 
-    contribution: "contribution", 
-    test: "test", 
-    licenses: "licenses", 
-    github: "github", 
-    email: "email"
-};
+// let things = {
+//     title: "title",
+//     description: "description", 
+//     installation: "installation", 
+//     usage: "usage", 
+//     contribution: "contribution", 
+//     test: "test", 
+//     licenses: "licenses", 
+//     github: "github", 
+//     email: "email"
+// };
 
 
 // this is getting test data passed in at thee moment
@@ -78,5 +78,5 @@ console.log(data)
 
 // this is a test to check to see if the info is going in
 
-console.log(generateHtml(things));
+// console.log(generateHtml(answers));
 
