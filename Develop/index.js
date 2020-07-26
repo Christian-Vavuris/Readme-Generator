@@ -3,6 +3,13 @@ const inquirer = require ('inquirer');
 const generatePage = require('./readme-html');
 
 
+const createFile = function(code) {
+    fs.writeFile('Readme.MD', code, (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+    });
+};
+
 const collectData = function () {
 
     var readmeData = [];
@@ -56,11 +63,15 @@ const collectData = function () {
   ])
   .then(answers => {
     // console.log(answers)
-    return console.log(generateHtml(answers));
+    console.log(generateHtml(answers));
+    return createFile(generateHtml(answers));
   });
 };
 
-collectData()
+
+
+
+collectData();
     // .then(console.log(generateHtml(answers)))
     //  .then(generateHtml(answers));
     // return writeFile(pageHTML);
