@@ -19,7 +19,8 @@ generateHtml = (data) => {
 console.log(data)
     const { title, description, installation, usage, contribution, test, licenses, github, email } = data;
     return `
-"# Project Title: ${title}
+[![Generic badge](https://img.shields.io/badge/<License>-<${licenses}>-<GREEN>.svg)](https://shields.io/)
+# Project Title: ${title}
 
 ## Description of the application
 
